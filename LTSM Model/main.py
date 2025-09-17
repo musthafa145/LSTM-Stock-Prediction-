@@ -12,7 +12,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 
 
-data = pd.read_csv("MicrosoftStock.csv")
+data = pd.read_csv("LTSM Model/MicrosoftStock.csv")
 print(data.head())
 print(data.info())
 print(data.describe())
